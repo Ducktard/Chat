@@ -1,22 +1,27 @@
+package Server;
+
+import java.util.ArrayList;
+
+import Server.Session;
 
 public class Server {
 
-	//Variablen
+	//variables
 	private boolean isActive = false;
 	private ArrayList<Session> sessions = new ArrayList<Session>();
 	//Konstanten
 	final private int MAX_SESSIONS = 10;
 	
 	
-	//Serverschleife
-	public serverloop(){
-		while(this.isActive && this.sessions this.MAX_SESSIONS){
+	//Serverloop
+	public void serverloop(){
+		while(this.isActive && this.sessions.size() < this.MAX_SESSIONS){
 			
 		}
 	}
 	
 	//Server Start
-	public start(){
+	public void start(){
 		
 	}
 }
