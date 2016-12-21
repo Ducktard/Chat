@@ -7,7 +7,7 @@ public class Chatmessage extends Message {
 	private String content;
 	
 	public Chatmessage(int id){
-		super.id = 1;
+		id = 1;
 	}
 	public String getContent() {
 		return content;

@@ -9,7 +9,7 @@ public class Main {
 		Client client = new Client();
 		
 		//test
-		Message msg = new Message();
+		Message msg = new Message("CHATMESSAGE",client.getClientName());
 		client.send(msg);
 	}
 	

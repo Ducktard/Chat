@@ -2,10 +2,17 @@ package Messagesystem;
 
 public class Message {
 
-	protected int id;
+	protected String messageID;
+	protected String target;
 
-	public int getId() {
-		return id;
+	public String getMessageID() {
+		return messageID;
 	}
+	
+	public Message(String messageID,String target){
+		this.messageID = messageID;
+		this.target = target;
+	}
+	
 	
 }
